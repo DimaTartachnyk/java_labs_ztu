@@ -21,9 +21,9 @@ public class Task5 {
         int sum = 0;
         
         while (num > 0) {
-            int digit = num % 10;  // Отримуємо останню цифру числа
-            sum += digit;          // Додаємо цю цифру до суми
-            num /= 10;             // Видаляємо останню цифру з числа
+            int digit = num % 10;  
+            sum += digit;          
+            num /= 10;             
         }
         
         return sum;
