@@ -1,8 +1,9 @@
 public class Task3 {
     public static void main(String[] args) {
-        for (int i = 0; i < args.length; i++) {
-            System.out.print(args[i]);
-            if (i < args.length - 1) {
+        String[] myArray = { "2", "3", "5", "8" };
+        for (int i = 0; i < myArray.length; i++) {
+            System.out.print(myArray[i]);
+            if (i < myArray.length - 1) {
                 System.out.print(" ");
             }
         }
