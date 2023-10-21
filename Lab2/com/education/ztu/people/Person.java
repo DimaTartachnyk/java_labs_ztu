@@ -11,12 +11,16 @@ public abstract class Person implements Human {
     private Gender gender;
     private Location location;
 
-    public Person() {
+    {
         this.firstname = "No firstname provided";
         this.lastname = "No lastname provided";
         this.age = 0;
         this.gender = Gender.CROISSANT;
         this.location = Location.BERDYCHIV;
+    }
+
+    public Person() {
+        
     }
 
     public Person(String firstname, String lastname, int age, Gender gender, Location location) {
